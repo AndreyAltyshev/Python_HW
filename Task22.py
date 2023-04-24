@@ -11,4 +11,4 @@ for i in range(n):
     n1.add(int(input()))
 for i in range(m):
     m1.add(int(input()))
-print(sorted(n1.union(m1)))
+print(n1.intersection(m1))
