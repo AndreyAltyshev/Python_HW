@@ -13,6 +13,6 @@ def sum_number(a, b):
         return a
     return sum_number(a + 1, b - 1)
 
-a = int(input("a="))
-b = int(input("b="))
-print(sum_number(a, b))
+
+x = input('Введите числа через пробел ').split()
+print(sum_number(int(x[0]), int(x[1])))
